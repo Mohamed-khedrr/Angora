@@ -1,0 +1,267 @@
+p {
+  color: #666;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/* ******************* */
+
+.bg-pink {
+  background-color: #f25454;
+}
+.text-pink {
+  color: #f25454;
+}
+.link-hover:hover {
+  color: #f25454 !important;
+}
+.under_line::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.05);
+  bottom: 0%;
+}
+.about .section-title::after {
+  content: "A";
+  position: absolute;
+  left: 50%;
+  bottom: -30%;
+  transform: translate(-50%);
+  font-size: 70px;
+  color: black;
+  opacity: 0.07;
+}
+
+.team .section-title::after {
+  content: "O";
+  position: absolute;
+  left: 50%;
+  bottom: -30%;
+  transform: translate(-50%);
+  font-size: 70px;
+  color: black;
+  opacity: 0.07;
+}
+.question a:hover {
+  background-color: #f07777;
+}
+.contact .section-title::after {
+  content: "G";
+  position: absolute;
+  left: 50%;
+  bottom: -30%;
+  transform: translate(-50%);
+  font-size: 70px;
+  color: black;
+  opacity: 0.07;
+}
+
+.services .section-title::after {
+  content: "S";
+  position: absolute;
+  left: 50%;
+  bottom: -30%;
+  transform: translate(-50%);
+  font-size: 70px;
+  color: black;
+  opacity: 0.07;
+}
+.clients .section-title::after {
+  content: "C";
+  position: absolute;
+  left: 50%;
+  bottom: -30%;
+  transform: translate(-50%);
+  font-size: 70px;
+  color: black;
+  opacity: 0.07;
+}
+.section-title::before {
+  content: "";
+  background-color: black;
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%);
+  transition: 0.3s;
+}
+
+.head:hover .section-title::before {
+  width: 70px;
+}
+
+/* ***************** */
+.about .progress {
+  height: 4px;
+  background-color: #eee;
+}
+
+.about .persent {
+  color: black;
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  color: #7f6666;
+}
+
+/* ******************* */
+
+.team .image .over-layer {
+  top: 130%;
+  transition: 0.1s;
+  background-color: rgba(242, 84, 84, 0.8);
+}
+
+.team .content:hover .image .over-layer {
+  top: 0;
+}
+.team .content img {
+  transition: 0.2s;
+}
+
+.team .content:hover img {
+  transform: scale(1.1, 1.1);
+}
+.team .content h5 {
+  transition: 0.3s;
+}
+.team .content:hover h5 {
+  color: #f25454;
+}
+.services {
+  background-color: #fafafa;
+}
+.footer .logo {
+  width: 5%;
+}
+.end {
+  background-color: #1a1a1a;
+}
+.header {
+  height: 100vh;
+}
+
+.background-1 {
+  background-image: url(../images/slideshow-1.jpg);
+}
+.background-2 {
+  background-image: url(../images/slideshow-2.jpg);
+}
+.background-3 {
+  background-image: url(../images/slideshow-3.jpg);
+}
+.prev-btn {
+  /* bottom: unset;
+  width: 50px;
+  height: 50px; */
+  position: unset;
+  height: 50px;
+}
+.next-btn {
+  /* bottom: unset;
+  top: 50;
+  left: 0;
+  width: 50px;
+  height: 50px; */
+  position: static;
+  height: 50px;
+}
+
+.carousel-test {
+  width: 400px;
+  z-index: 1;
+}
+
+.services h5 {
+  font-family: Poppins, sans-serif;
+}
+.services h5:hover {
+  color: #f25454;
+}
+
+header h1 {
+  font-weight: 700;
+  line-height: 70px;
+  font-size: 70px;
+  color: white;
+}
+header .over-layer {
+  width: 27%;
+}
+.sitting-icon {
+  z-index: 1;
+  top: 15%;
+  left: 0;
+}
+
+nav {
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-rev-icon {
+  color: red;
+}
+.up {
+  width: 3rem;
+  height: 3rem;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 50%;
+  transition: 0.3s;
+}
+.colors {
+  height: 2.5rem;
+}
+.up:hover {
+  opacity: 100%;
+}
+
+.footer ul a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.3);
+
+  transition: 0.3s;
+}
+.footer ul a:hover {
+  color: rgba(242, 84, 84, 0.8);
+}
+
+.footer button {
+  color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.footer button:hover {
+  color: rgba(242, 84, 84, 0.8);
+  border-color: rgba(242, 84, 84, 0.8);
+}
+.contact {
+  background-color: #fafafa;
+}
+.contact h6 {
+  font-weight: bolder;
+  transition: 0.3s;
+}
+.contact h6:hover {
+  color: #f25454;
+}
+.contact button:hover {
+  opacity: 70%;
+}
+.footer a {
+  color: white;
+  transition: 0.3s;
+}
+.footer a:hover {
+  color: #f25454;
+}
